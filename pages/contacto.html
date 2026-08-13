@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contactate con nosotros</h1>
+        <!--Header es la cabecera-->
+        <!--Otro comentario, se crean con menos, exclamación, menos menos y se cierra sólo-->
+        <!--h1 es el título principal de la página. Sólo se puede poner una vez.-->
+        <p>Si tienes dudas o sugerencias, escríbenos a través de nuestro formulario de contacto</p>
+
+        <nav>
+            <ul>
+                <li> <a href="../index.html">Inicio</a> </li>
+                <li> <a href="menu.html" class="link-destacado">Menú</a> </li>
+                <li> <a href="sobre-nosotros.html">Sobre Nosotros</a> </li>
+                <li> <a href="cursos.html">Cursos de cocina</a></li>
+                <li> <a href="#">Contacto</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <h2>Formulario de contacto</h2>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Datos de usuario</legend>
+
+                <label for="form-name">Nombre</label>
+                <input type="text" id="form-name" placeholder="Escriba su nombre" required>
+
+                <label for="form-surname">Apellido</label>
+                <input type="text" id="form-surname" placeholder="Escriba su apellido" required>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Correo y contraseña</legend>
+
+                <label for="form-correoelectronico">Correo Electronico</label>
+                <input type="email" id="form-correoelectronico" placeholder="Escriba su correo" required>
+
+                <label for="form-pass">Contraseña</label>
+                <input type="password" id="form-pass" placeholder="Escriba su contraseña" required>
+                <!--Esto de correo y contraseña no tiene nada que ver con la cafetería pero lo dejé para recordar cómo se hace-->
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Productos que he probado</legend>
+
+                <input type="checkbox" id="check-brownie">
+                <label for="check-brownie">Brownie</label>
+
+                <input type="checkbox" id="check-sanswich">
+                <label for="check-sanswich">Sandwich</label>
+
+                <input type="checkbox" id="check-expresso">
+                <label for="check-expresso">Expresso</label>
+
+                <input type="checkbox" id="check-milkshake">
+                <label for="check-milkshake">Milkshake</label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Elija una sola opción</legend>
+
+                <input type="radio" id="form-radio1" name="opcionUnica">
+                <label for="form-radio1">Felicitaciones</label>
+
+
+                <input type="radio" id="form-radio2" name="opcionUnica">
+                <label for="form-radio2">Reclamos</label>
+
+                <input type="radio" id="form-radio3" name="opcionUnica">
+                <label for="form-radio3">Sugerencias</label>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Elija una sucursal</legend>
+
+                <select name="sucursal" id="sucursal">
+                    <option value="santiago">Santiago</option>
+                    <option value="concepcion">Concepción</option>
+                    <option value="iquique">Iquique</option>
+                    <option value="algarrobo">Algarrobo</option>
+                    <option value="vina">Viña</option>
+                </select>
+
+            </fieldset>
+
+            <input type="submit">
+
+        </form>
+    </main>
+
+
+    <footer>
+
+        <div>
+
+            <div>
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li> <a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li> <a href="http://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li> <a href="http://www.youtube.com" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Mis datos</h3>
+                <ul>
+                    <li>Iniciar sesion</li>
+                    <li>Registrarse</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div>
+            <p>Copyright - 2026 Bredize Quintana</p>
+            <p>Santiago de Chile 123</p>
+            <p>Horarios: Sábados de 11:00 a 13:00</p>
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>

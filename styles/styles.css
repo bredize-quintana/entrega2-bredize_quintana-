@@ -1,0 +1,75 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: #3B2416;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+} 
+
+h2 {
+    color: #8C4930;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+h3,
+p {
+    color: #3B2416;
+    font-weight: 500;
+    font-style: italic;
+}
+
+p {
+    font-size: small;
+    font-style: normal;
+}
+
+li {
+    color: #5C514A;
+    font-weight: 200;
+    list-style: none;
+}
+
+span {
+    color: #02590f;
+}
+
+a {
+    color: #3B2416;
+    text-decoration: none;
+}
+
+.link-destacado {
+    font-weight: 700;
+}
+
+/*------menú----*/
+
+header nav ul li a {
+    font-weight: 500;
+}
+
+/*-----header-----*/
+
+header{
+        background-color: #f0ad8e;
+}
+
+/*-----main-----*/
+
+main{
+    background-color: #f4e9db;
+}
+
+/*-----footer-----*/
+footer{
+    background-color: #d4e0d6;
+}
+
+/*-----Nosotros-----*/
+.fondo-nosotros{
+    background-image: url(../imagenes/fondo-nosotros.jpg);
+}
